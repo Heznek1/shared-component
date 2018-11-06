@@ -2,6 +2,7 @@
 {
     public enum Instance
     {
-        HeznekServiceUser = 1
+        ServiceOwner = 1,
+        HeznekService = 2
     }
 }
