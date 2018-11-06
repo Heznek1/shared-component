@@ -4,11 +4,6 @@ namespace Shared.Security
 {
     public static class Token
     {
-        private static readonly string secretKey = "Secret";
-
-        public static string GetSecretKey()
-        {
-            return ConfigurationManager.AppSettings[secretKey];
-        }
+        public const string Secret = "C783Y8X0LzRApcO7C8BRnm30tRIO1qk+51uD1pwi8qAW3ig6NU/CtMPLasrHmo1zrMcUDn0vFNpmv0mlD+KGjw==";
     }
 }
