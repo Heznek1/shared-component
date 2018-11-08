@@ -2,9 +2,9 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Shared.Encryption
+namespace Shared.Utils
 {
-    public static class EncriptPassword
+    public static class EncryptUtils
     {
         public static string EncryptPassword(this string input)
         {

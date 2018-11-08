@@ -42,15 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Encryption\EncriptPassword.cs" />
+    <Compile Include="Utils\EncryptUtils.cs" />
     <Compile Include="Identity Provider\Instance.cs" />
     <Compile Include="Identity Provider\Role.cs" />
     <Compile Include="Identity Provider\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Security\Token.cs" />
+    <Compile Include="Utils\EnumParserUtils.cs" />
+    <Compile Include="View Model\UserAuthenticationViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
