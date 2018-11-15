@@ -51,6 +51,7 @@
     <Compile Include="Security\Token.cs" />
     <Compile Include="Utils\EnumParserUtils.cs" />
     <Compile Include="View Model\UserAuthenticationViewModel.cs" />
+    <Compile Include="View Model\UserRegistrationViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
